@@ -4,12 +4,13 @@
         <artifactId>wildfly-cookbook</artifactId>
         <groupId>com.packtpub.wildfly-cookbook</groupId>
         <version>1.0</version>
+        <relativePath>parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>docker-example</artifactId>
+    <artifactId>eap6-demo</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>docker-example</name>
+    <name>eap6-demo</name>
 
     <build>
         <finalName>${project.name}</finalName>
